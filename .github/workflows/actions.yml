@@ -8,8 +8,9 @@ jobs:
     steps:
       - name: List Files
         run: |
-        pwd
-        ls
+          pwd
+          ls
+          ls -a
       - name: Simple JS Actions
         id: greet
         uses:  actions/hello-world-javascript-action@main
