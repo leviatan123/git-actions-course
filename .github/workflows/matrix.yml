@@ -1,4 +1,4 @@
-name: matrix ##Working
+name: matrix ##Working with matrix
 on: push
 
 jobs:
